@@ -6,10 +6,15 @@ Building a frontend with Rust has become so easy with yew.
 
 
 ## Installation and Running
+
+Make sure you have Rust and Cargo installed. You can find installation instructions on the Rust website `https://www.rust-lang.org/tools/install`.
+
 To run it, make sure you have trunk installed:
 ```
 cargo install trunk
 ```
+This installs trunk globally on your system
+What is Trunk? Trunk is a development server for WASM applications which is used to develop and serve the application.
 
 also make sure you can compile to wasm32
 ```
